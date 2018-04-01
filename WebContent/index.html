@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head onload = "kiki();">
+        <tittle>Pizarra online by JM-EG</tittle><br>
+        <style>
+            #modal {
+			 position: absolute;
+			 top: 27px;
+			 left: 9px;
+			 width: 500px;
+			 height: 500px;
+			 background-color: rgba(0,0,0,0.7);
+		    } 
+        </style>
+    </head>
+    <body>
+        <canvas id = "canvas" width="500" height="500" style = "border: 1px solid red;"></canvas>
+        <textarea readonly = "readonly" id = "textA" rows = "33" cols = "40"></textarea>
+        <div id = "modal"></div>
+        <div id = "log">
+            <br>Username:     
+            <input type = "text" id = "Text">
+            <button id = "boton" onclick = "start();">Login</button>
+        </div>
+        <script src = js\js2.js></script>
+    </body>
+</html>    
