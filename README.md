@@ -1,0 +1,1 @@
+A WebSocket server to draw a canvas with 2 clients.
